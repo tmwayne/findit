@@ -7,6 +7,7 @@
 
 " MAPPINGS {{{
 
+nnoremap <localleader>s :call SearchWord(expand("<cword>"))<cr>
 
 " }}}
 
